@@ -23,8 +23,8 @@
         }
         
         
-        public function read(){
-            $query = 'INSERT INTO ' . $this->table . '
+        public function create_post(){
+            $query = 'INSERT INTO
             SET
                 name = ?,
                 time = ?,
